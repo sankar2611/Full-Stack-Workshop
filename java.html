@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="toggle.css">
+    </head>
+    <body>
+       <div class="container">
+         <div class="theme-switch">
+         <div class="switch"></div>
+       </div>
+       <div class="button"></div>
+       </div>
+
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script>
+     $(document).ready(function() {
+         $(".theme-switch").on("click", function() {
+             $("body").toggleClass("light-theme");
+         });
+     });
+     </script>
+    </body>
+</html>
