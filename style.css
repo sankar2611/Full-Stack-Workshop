@@ -1,0 +1,9 @@
+H1{ text-align: center;
+color:rgb(38, 0, 255)}
+p{ text-align: center;
+    color:antiquewhite}
+body{ background-color: black}
+table{color:green}
+img{border:2px solid cyan}
+h2{text-align:center;color:azure ; border-color: antiquewhite;}
+table.th,td{border:3px solid white}
